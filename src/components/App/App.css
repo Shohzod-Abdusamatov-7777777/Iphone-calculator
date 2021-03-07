@@ -1,0 +1,81 @@
+.App {
+  margin: 5px auto;
+  background: #000;
+  width: 300px;
+  height: 610px;
+  color: #fff;
+  border-radius: 40px;
+  padding: 20px;
+  display: block;
+}
+.top {
+  height: 160px;
+  padding: 0 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.icon-container{
+ display: flex;
+}
+.icon{
+  margin-left: 4px;
+  font-size: 30px;
+  margin-top:-5px;
+}
+body::-webkit-scrollbar {
+  width: 5px;
+}
+body::-webkit-scrollbar-track {
+  background-color: #111;
+}
+body::-webkit-scrollbar-thumb {
+  background: cyan;
+  filter: hue-rotate(190deg);
+  border-radius: 5px;
+}
+
+.display {
+  font-size: 60px;
+  margin-bottom: 10px;
+  
+  text-align: right;
+  overflow: auto;
+  padding-right: 10px;
+}
+.display::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+}
+.display::-webkit-scrollbar-track {
+  background: #000;
+  filter: hue-rotate(120deg);
+}
+.display::-webkit-scrollbar-thumb {
+  background: #444;
+  border-radius: 5px;
+}
+.buttons {
+  color: red;
+  display: grid;
+  grid-gap: 10px;
+  grid-template-rows: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  margin: 0 auto;
+  text-align: center;
+}
+.bottom {
+ width: 50%;
+ background: #fff;
+ height: 4px;
+ border-radius: 5px;
+ margin:0px auto;
+ margin-top: 30px;
+}
+/* @media screen and (max-width: 400px) {
+  .App {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+} */
